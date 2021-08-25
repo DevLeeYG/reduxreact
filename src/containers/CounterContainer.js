@@ -17,7 +17,7 @@ const CounterContainer = () => {
     );
 };
 
-export default CounterContainer
+export default React.memo(CounterContainer)
 
 // export default connect(
 //     function(state){return({number:state.counter.number,})},

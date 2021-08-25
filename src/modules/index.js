@@ -4,7 +4,7 @@ import todos from './todos'
 
 const rootReducer  = combineReducers({
   counter,
-  todos,
+  todos,//이문제였던듯
 });
 
 export default rootReducer
